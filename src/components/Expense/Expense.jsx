@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 import CURRENCIES from "../../utils/Currencies";
+import './expense.css';
 
 const Expense = ({ type, value }) => <div className={classNames('expense', type)}>{value}{CURRENCIES.EURO}</div>;
 
